@@ -7,13 +7,11 @@
 * init 블록은 주로 primary constructor과 함께 사용된다.
   
 ### 방법 2: primary constructor. 
-*1개만 사용 가능, class header부분에 위치함. 
-*ex) class Car(var model:String, var color:String)
+* 1개만 사용 가능, class header부분에 위치함.
 
 ### 방법3: secondary constructor 사용. 
 * primary가 존재한다면 secondary는 무조건 primary에게 직간접적으로 생성을 위임해야한다.
 * 여러개를 사용 할 수 있다.
-
 
 ### 실행 순서
 * primary constructor -> init{} -> secondary constructor
