@@ -6,7 +6,18 @@
 
 ## kotlin 추가적인 실습
 ### * BMI 프로그램
+      * 기본 코드
+      
+      * findViewById를 통해 xml 위젯의 값을 가져옴
+      
+      * ceil을 통해 반올림 처리
+      
+      * math.pow를 통해 거듭제곱 처리
+      
+      * setText를 통해 위젯에 값 입력
+ 
 ### * Timer 프로그램
+
       * Android 시스템은 응용프로그램이 시작될 때 단일 스레드로 새로운 Linux 프로세스를 시작합니다(=> Main Thread).
       
       * Main Tread
