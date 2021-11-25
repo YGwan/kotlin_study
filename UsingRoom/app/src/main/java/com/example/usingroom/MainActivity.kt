@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity() {
             val d = Log.d(TAG, "Nothing in db")
         }
 
-        //Log.d(TAG, "입력을 시작합니다.")
+        Log.d(TAG, "입력을 시작합니다.")
         //Insert data to database
 
-        //val userd = User(1, "YongGwan", "Park")
-        //db.userDao().insertAll(userd)
+        val userd = User(1, "YongGwan", "Park")
+        db.userDao().insertAll(userd)
 
 
         //Query specific data from database
@@ -49,14 +49,14 @@ class MainActivity : AppCompatActivity() {
         } else {
 
         }
-//
-//        var readuser2 = db.userDao().findByName("W%", "%")
-//        if (readuser2 != null) {
-//            Log.d(TAG,readuser2.firstName+" "+readuser2.lastName)
-//
-//        } else {
-//
-//        }
+
+        var readuser2 = db.userDao().findByName("Y%", "%")
+        if (readuser2 != null) {
+            Log.d(TAG,readuser2.firstName+" "+readuser2.lastName)
+
+        } else {
+
+        }
 
     }
 }
