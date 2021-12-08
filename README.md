@@ -53,6 +53,8 @@
  
  
  ### * mnist 데이터셋 분석한 것을 바탕으로 안드로이드와 연결하기
+ 
+ https://developer.android.com/codelabs/digit-classifier-tflite#0 사이트를 기반으로 연동
           
            --------- we already have trained model ---------
          
