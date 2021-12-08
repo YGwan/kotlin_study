@@ -69,6 +69,7 @@
                * Save model to file(mnist.tflite)
                 
           ---------- Part of android.app coding  ----------
+              
                * Create android app.
                * Import model file (Create interpreter)
                * Get input(Handwritten digit) from user
