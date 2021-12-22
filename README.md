@@ -51,3 +51,30 @@
 
 <img width="953" alt="Tread" src="https://user-images.githubusercontent.com/50222603/143299249-62ab7bd4-79d4-4e03-be6d-5d13aaf6fd0d.png">
  
+ 
+ ### * mnist 데이터셋 분석한 것을 바탕으로 안드로이드와 연결하기
+ 
+ https://developer.android.com/codelabs/digit-classifier-tflite#0 사이트를 기반으로 연동
+          
+           --------- we already have trained model ---------
+         
+               * Create your MNIST model
+               * Train with the data
+               * Get the trained model
+         
+          --------- Convert  the  trained  TensorFlow  model  --------- 
+                     with  the TensorFlow  Lite Converter
+         
+               * Convert to TensorFlow Lite model
+               * Save model to file(mnist.tflite)
+                
+          ---------- Part of android.app coding  ----------
+              
+               * Create android app.
+               * Import model file (Create interpreter)
+               * Get input(Handwritten digit) from user
+               * Run Inference
+               * Show result
+     
+ 
+<https://user-images.githubusercontent.com/50222603/145235756-4d86c631-bb4b-4a4b-a757-48b77e774172.mov>
